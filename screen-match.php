@@ -17,8 +17,5 @@ $planoPrime = true;
 
 $incluidoNoPlano = $planoPrime && $anoLancamento < 2020;
 
-echo "Nome do filme: ";
-echo $nomeFilme;
-echo "\n";
-echo "Nota do filme: ";
-echo $notaFilme;
+echo "Nome do filme: " . $nomeFilme . "\n";
+echo "Nota do filme: $notaFilme\n";
