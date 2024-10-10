@@ -13,6 +13,9 @@ $somaDeNotas += 7.5;
 $somaDeNotas += 5;
 
 $notaFilme = $somaDeNotas / 5;
-$incluidoNoPlano = true;
+$planoPrime = true;
+
+
+$incluidoNoPlano = $planoPrime || $anoLancamento < 2020;
 
 echo $notaFilme;
