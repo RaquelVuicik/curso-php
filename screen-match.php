@@ -15,8 +15,8 @@ for ($contador = 1; $contador < $argc; $contador++) {
 }
 
 $somaDeNotas = 0;
-for ($i = 0; $i < count($notas); $i++) {
-    $somaDeNotas += $notas[$i];
+foreach ($notas as $nota) {
+    $somaDeNotas += $nota;
 }
 
 var_dump($notas);
