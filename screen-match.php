@@ -33,7 +33,8 @@ if ($anoLancamento > 2022) {
 $genero = match ($nomeFilme) {
     "Top Gun - Maverick" => "ação",
     "Thor: Ragnarok" => "super-herói",
-    "Se beber não case" => "comédia"
+    "Se beber não case" => "comédia",
+    default => "gênero desconhecido"
 };
 
 echo "O gênero do filme é: $genero";
