@@ -37,4 +37,6 @@ $genero = match ($nomeFilme) {
     default => "gênero desconhecido"
 };
 
-echo "O gênero do filme é: $genero";
+echo "O gênero do filme é: $genero\n";
+
+echo $argc;
