@@ -6,18 +6,19 @@ $nomeFilme = "Top Gun - Maverick";
 
 $anoLancamento = 2022;
 
-$quantidadeDeNotas = $argc - 1;
+$quantidadeDeNotas = $argc - 2;
 $somaDeNotas = 0;
 
-for ($contador = 1; $contador < $argc; $contador++) { //inicialização; condição da repetição; incremento
+/*
+for ($contador = 1; $contador < $argc; $contador++) {
     $somaDeNotas += $argv[$contador];
 }
-
-/* 
-$somaDeNotas += $argv[1];
-$somaDeNotas += $argv[2];
-$somaDeNotas += $argv[3];
 */
+
+$contador = 1;
+while ($argv[$contador] != 0) {
+    $somaDeNotas += $argv[$contador++];
+}
 
 $notaFilme = $somaDeNotas / $quantidadeDeNotas;
 $planoPrime = true;
