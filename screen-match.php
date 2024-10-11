@@ -53,4 +53,13 @@ $genero = match ($nomeFilme) {
 
 echo "O gênero do filme é: $genero\n";
 
-echo $argc;
+$notasParaOFilme = [
+    10, 
+    8, 
+    9, 
+    7.5, 
+    5, 
+    6.8
+];
+
+var_dump($notasParaOFilme);
