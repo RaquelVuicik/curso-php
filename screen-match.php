@@ -23,8 +23,8 @@ echo "Ano de lançamento: $anoLancamento\n";
 
 if ($anoLancamento > 2022) {
     echo "Esse filme é um lançamento";
-}
-
-if ($anoLancamento <= 2022) {
+} elseif($anoLancamento > 2020 && $anoLancamento <= 2022) {
+    echo "Esse filme ainda é novo";
+} else {
     echo "Esse filme não é um lançamento";
 }
