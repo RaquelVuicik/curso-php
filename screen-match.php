@@ -62,4 +62,13 @@ $notasParaOFilme = [
     6.8
 ];
 
-var_dump($notasParaOFilme);
+// var_dump($notasParaOFilme);
+
+$filme = [
+    "nome" => "Thor: Ragnarok",
+    "ano" => 2021,
+    "nota" => 7.8,
+    "genero" => "super-herói",
+];
+
+echo $filme["nome"];
