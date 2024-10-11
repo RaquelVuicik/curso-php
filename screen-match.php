@@ -9,7 +9,7 @@ $anoLancamento = 2022;
 $quantidadeDeNotas = $argc - 1;
 $somaDeNotas = 0;
 
-for ($contador = 1; $contador < $argc; $contador += 1) { //inicialização; condição da repetição; incremento
+for ($contador = 1; $contador < $argc; $contador++) { //inicialização; condição da repetição; incremento
     $somaDeNotas += $argv[$contador];
 }
 
