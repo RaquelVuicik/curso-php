@@ -69,3 +69,10 @@ $filme = [
 
 echo $filme["ano"];
 echo "\n";
+
+var_dump($notas);
+sort($notas);
+var_dump($notas);
+$menorNota = min($notas);
+echo $menorNota;
+echo "\n";
