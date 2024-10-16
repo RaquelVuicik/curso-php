@@ -76,3 +76,10 @@ var_dump($notas);
 $menorNota = min($notas);
 echo $menorNota;
 echo "\n";
+
+var_dump($filme['nome']);
+$posicaoDoisPontos = strpos($filme['nome'], ':');
+var_dump($posicaoDoisPontos);
+
+var_dump(substr($filme['nome'], 0, $posicaoDoisPontos));
+//var_dump(substr($filme['nome'], 6, 12));
